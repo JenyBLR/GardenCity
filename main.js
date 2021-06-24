@@ -79,6 +79,9 @@ $('.header__btn').on('click', function(){
 $('.header__btn').on('click', function(){
   $('.header__btn').toggleClass('header__btn--active') 
 })
+$('.header__btn').on('click', function(){
+  $('body').toggleClass('body__fixed') 
+})
 
 
 

@@ -10,6 +10,7 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0;  
   overflow-x: hidden;
+  overflow-y: hidden ;
 }
 a {
   text-decoration: none;
@@ -631,8 +632,7 @@ footer {
   .header__nav { 
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    position: absolute;
+    position: fixed; 
     top: 0;
     left: 0;
     right: 0;
@@ -643,10 +643,15 @@ footer {
     margin-right: 0;
     margin-top: 0;
     height: 100vh;
+    padding: 70px 0;
+  }
+  .body__fixed {
+    height: 100vh;
   } 
   .nav__link {
     line-height: 35px;
     font-size: 25px;
+    line-height: 60px;
   }
   .header__nav.header__nav--active{
     transform: translateY(0);
