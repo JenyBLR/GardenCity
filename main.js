@@ -76,5 +76,9 @@ $('.slick__arrow2-previos').on('click', function() {
 $('.header__btn').on('click', function(){
   $('.header__nav').toggleClass('header__nav--active') 
 })
+$('.header__btn').on('click', function(){
+  $('.header__btn').toggleClass('header__btn--active') 
+})
+
 
 
